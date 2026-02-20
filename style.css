@@ -544,20 +544,20 @@ body {
 
     .dash-sidebar ul {
         display: flex;
-        overflow-x: auto;
+        overflow-x: hidden;
         gap: 10px;
     }
 
     .dash-sidebar li {
         white-space: nowrap;
-        padding: 8px 15px;
+        padding: 0px 15px;
     }
 
     
 
     /* 3. Scale down the Hero Section */
     .hero h1 {
-        font-size: 2rem;
+        font-size: 30px;
     }
 
     /* 4. Make Chatbox smaller so it doesn't cover the screen */
@@ -760,4 +760,5 @@ body {
 .hub-media:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 25px rgba(250, 204, 21, 0.2);
+
 }
