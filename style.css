@@ -522,7 +522,7 @@ body {
 }
 }
 /* Responsive adjustments for Tablets and Phones */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     /* 1. Stack the Market Cards vertically */
     .crypto-container {
         grid-template-columns: 1fr;
@@ -544,20 +544,20 @@ body {
 
     .dash-sidebar ul {
         display: flex;
-        overflow-x: hidden;
+        overflow-x: auto;
         gap: 10px;
     }
 
     .dash-sidebar li {
         white-space: nowrap;
-        padding: 0px 15px;
+        padding:8px 15px;
     }
 
     
 
     /* 3. Scale down the Hero Section */
     .hero h1 {
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     /* 4. Make Chatbox smaller so it doesn't cover the screen */
@@ -762,3 +762,4 @@ body {
     box-shadow: 0 8px 25px rgba(250, 204, 21, 0.2);
 
 }
+
